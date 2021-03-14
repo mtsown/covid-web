@@ -1,0 +1,47 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/images/common-background.jpg');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+.not-found #cloud-logo {
+  color: var(--white);
+  transform: scale(10);
+  margin-bottom: 2rem;
+}
+
+.not-found .not-found-card {
+  background-color: var(--white);
+  padding: 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 20px darkslategray;
+  color: gray;
+  text-align: center;
+  margin: 0 2rem 0 2rem;
+  max-width: 600px;
+}
+
+.not-found-card img {
+  width: 80%;
+}
+
+.not-found .not-found-card div:nth-child(1) {
+  font-size: 5rem;
+  color: var(--purple);
+}
+
+.not-found .not-found-card div:nth-child(2) {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.not-found .not-found-card div:nth-child(3) {
+  font-size: 1rem;
+}

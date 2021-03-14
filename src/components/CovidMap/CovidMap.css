@@ -1,0 +1,16 @@
+.covid-map {
+  align-items: center;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  position: relative;
+}
+
+.covid-map.covid-map-loading {
+  height: 200px;
+}
+
+.margin {
+  display: flex;
+  margin: 4px;
+}

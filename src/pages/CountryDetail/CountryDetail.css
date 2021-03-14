@@ -1,0 +1,20 @@
+.country-detail .country-info .ant-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country-detail .country-info .country-flag {
+  margin: 2rem 0 2rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.country-detail h1.ant-typography {
+  color: var(--green);
+}
+
+.country-detail .country-info .country-name h1.ant-typography {
+  color: var(--black);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

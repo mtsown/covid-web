@@ -1,0 +1,45 @@
+.map-tooltip {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-tooltip-field {
+  display: flex;
+  align-items: center;
+}
+
+.map-tooltip-flag {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18px;
+  margin-right: 8px;
+  min-width: 28px;
+}
+
+.map-tooltip-header {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.map-tooltip-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+
+.mapboxgl-popup-content {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.mapboxgl-popup-close-button {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.map-tooltip-value {
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+}

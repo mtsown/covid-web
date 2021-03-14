@@ -1,0 +1,24 @@
+.home-page .covid-countries {
+  padding: 2rem 0 2rem 0;
+}
+
+.home-page .covid-countries .ant-table-thead .ant-table-cell {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.home-page .covid-countries .ant-table-thead .ant-table-cell:hover {
+  background-color: var(--lightgreen);
+  color: var(--green);
+}
+
+.home-page
+  .covid-countries
+  .ant-table-tbody
+  .ant-table-cell.ant-table-column-sort {
+  background-color: var(--lightgreen);
+}
+
+.home-page .covid-countries .ant-table-tbody .ant-table-cell a {
+  color: var(--green);
+}

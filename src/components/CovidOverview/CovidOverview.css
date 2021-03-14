@@ -1,0 +1,53 @@
+.covid-overview {
+  padding: 2rem 0 2rem 0;
+}
+
+.covid-overview .ant-card {
+  margin: 1rem;
+  box-shadow: 0 4px 12px 0px var(--shadow-color);
+  min-width: 170px;
+}
+
+.covid-overview .ant-card .ant-card-head {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.covid-overview .ant-card .ant-card-body p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.covid-overview .ant-col:nth-child(1) .ant-card .ant-card-head {
+  background-color: var(--blue);
+}
+
+.covid-overview .ant-col:nth-child(1) .ant-card .ant-card-body p {
+  border-bottom: 3px solid var(--blue);
+}
+
+.covid-overview .ant-col:nth-child(2) .ant-card .ant-card-head {
+  background-color: var(--green);
+}
+
+.covid-overview .ant-col:nth-child(2) .ant-card .ant-card-body p {
+  border-bottom: 3px solid var(--green);
+}
+
+.covid-overview .ant-col:nth-child(3) .ant-card .ant-card-head {
+  background-color: var(--red);
+}
+
+.covid-overview .ant-col:nth-child(3) .ant-card .ant-card-body p {
+  border-bottom: 3px solid var(--red);
+}
+
+.covid-overview .ant-col:nth-child(4) .ant-card .ant-card-head {
+  background-color: var(--yellow);
+}
+
+.covid-overview .ant-col:nth-child(4) .ant-card .ant-card-body p {
+  border-bottom: 3px solid var(--yellow);
+}

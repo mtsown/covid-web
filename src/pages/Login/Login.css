@@ -1,0 +1,42 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/common-background.jpg");
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+.login.disabled-login {
+  pointer-events: none;
+}
+
+.login h1.ant-typography {
+  color: var(--white);
+  margin: 1rem 0 1rem 0;
+}
+
+.login .login-form {
+  background-color: var(--white);
+  min-width: 300px;
+  padding: 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 20px var(--shadow-color);
+}
+
+.login .ant-form .ant-row .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+}
+
+.login .ant-form .site-form-item-icon {
+  color: var(--shadow-color);
+}
+
+.login .ant-typography.ant-typography-danger {
+  margin-bottom: 1rem;
+}

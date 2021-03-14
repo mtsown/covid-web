@@ -1,0 +1,4 @@
+.app .virus-logo {
+  color: var(--white);
+  transform: scale(5);
+}

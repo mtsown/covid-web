@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthRoute should render correctly 1`] = `
+<Route
+  render={[Function]}
+/>
+`;
+
+exports[`AuthRoute should render correctly with props 1`] = `
+<Route
+  path="/login"
+  render={[Function]}
+/>
+`;

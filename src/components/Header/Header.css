@@ -1,0 +1,23 @@
+.header {
+  font-size: 1.5rem;
+  padding: 1rem;
+  box-shadow: 0 8px 8px -6px var(--shadow-color);
+}
+
+.header .header-logo a {
+  color: var(--black);
+  font-weight: bold;
+}
+.header .header-logo span {
+  color: var(--green);
+}
+
+.header .header-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .header-nav span.ant-dropdown-link {
+  color: var(--green);
+  cursor: default;
+}
